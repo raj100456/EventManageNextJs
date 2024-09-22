@@ -12,17 +12,6 @@ exports.id = "app/tags/page";
 exports.ids = ["app/tags/page"];
 exports.modules = {
 
-/***/ "./action-async-storage.external":
-/*!****************************************************************************!*\
-  !*** external "next/dist/client/components/action-async-storage.external" ***!
-  \****************************************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/client/components/action-async-storage.external");
-
-/***/ }),
-
 /***/ "../../client/components/action-async-storage.external":
 /*!*******************************************************************************!*\
   !*** external "next/dist/client/components/action-async-storage.external.js" ***!
@@ -34,17 +23,6 @@ module.exports = require("next/dist/client/components/action-async-storage.exter
 
 /***/ }),
 
-/***/ "./request-async-storage.external":
-/*!*****************************************************************************!*\
-  !*** external "next/dist/client/components/request-async-storage.external" ***!
-  \*****************************************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/client/components/request-async-storage.external");
-
-/***/ }),
-
 /***/ "../../client/components/request-async-storage.external":
 /*!********************************************************************************!*\
   !*** external "next/dist/client/components/request-async-storage.external.js" ***!
@@ -53,17 +31,6 @@ module.exports = require("next/dist/client/components/request-async-storage.exte
 
 "use strict";
 module.exports = require("next/dist/client/components/request-async-storage.external.js");
-
-/***/ }),
-
-/***/ "./static-generation-async-storage.external":
-/*!***************************************************************************************!*\
-  !*** external "next/dist/client/components/static-generation-async-storage.external" ***!
-  \***************************************************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/client/components/static-generation-async-storage.external");
 
 /***/ }),
 
@@ -225,7 +192,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_font_google_target_css_path_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"app/layout.js\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"inter\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./globals.css */ \"(rsc)/./app/globals.css\");\n/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/components/Header */ \"(rsc)/./components/Header.jsx\");\n/* harmony import */ var _components_theme_provider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/components/theme-provider */ \"(rsc)/./components/theme-provider.jsx\");\n/* harmony import */ var _components_SessionWrapper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/components/SessionWrapper */ \"(rsc)/./components/SessionWrapper.jsx\");\n\n\n\n\n\n\nconst metadata = {\n    title: \"QEvent\"\n};\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_SessionWrapper__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n            lang: \"en\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n                className: (next_font_google_target_css_path_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_5___default().className),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_theme_provider__WEBPACK_IMPORTED_MODULE_3__.ThemeProvider, {\n                    attribute: \"class\",\n                    defaultTheme: \"light\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Header__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                            fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n                            lineNumber: 19,\n                            columnNumber: 13\n                        }, this),\n                        children\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n                    lineNumber: 18,\n                    columnNumber: 11\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n                lineNumber: 17,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n            lineNumber: 16,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n        lineNumber: 15,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvbGF5b3V0LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBTU1BO0FBTGlCO0FBQ2tCO0FBQ21CO0FBQ0g7QUFJbEQsTUFBTUksV0FBVztJQUN0QkMsT0FBTztBQUNULEVBQUU7QUFFYSxTQUFTQyxXQUFXLEVBQUVDLFFBQVEsRUFBRTtJQUM3QyxxQkFDRSw4REFBQ0osa0VBQWNBO2tCQUNiLDRFQUFDSztZQUFLQyxNQUFLO3NCQUNULDRFQUFDQztnQkFBS0MsV0FBV1gsMEpBQWU7MEJBQzlCLDRFQUFDRSxxRUFBYUE7b0JBQUNVLFdBQVU7b0JBQVFDLGNBQWE7O3NDQUM1Qyw4REFBQ1osMERBQU1BOzs7Ozt3QkFDTk07Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFNYiIsInNvdXJjZXMiOlsid2VicGFjazovL2V2ZW50LW5leHQvLi9hcHAvbGF5b3V0LmpzPzYwZTkiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSW50ZXIgfSBmcm9tIFwibmV4dC9mb250L2dvb2dsZVwiO1xuaW1wb3J0IFwiLi9nbG9iYWxzLmNzc1wiO1xuaW1wb3J0IEhlYWRlciBmcm9tIFwiQC9jb21wb25lbnRzL0hlYWRlclwiO1xuaW1wb3J0IHsgVGhlbWVQcm92aWRlciB9IGZyb20gXCJAL2NvbXBvbmVudHMvdGhlbWUtcHJvdmlkZXJcIjtcbmltcG9ydCBTZXNzaW9uV3JhcHBlciBmcm9tIFwiQC9jb21wb25lbnRzL1Nlc3Npb25XcmFwcGVyXCI7XG5cbmNvbnN0IGludGVyID0gSW50ZXIoeyBzdWJzZXRzOiBbXCJsYXRpblwiXSB9KTtcblxuZXhwb3J0IGNvbnN0IG1ldGFkYXRhID0ge1xuICB0aXRsZTogXCJRRXZlbnRcIixcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9KSB7XG4gIHJldHVybiAoXG4gICAgPFNlc3Npb25XcmFwcGVyPlxuICAgICAgPGh0bWwgbGFuZz1cImVuXCI+XG4gICAgICAgIDxib2R5IGNsYXNzTmFtZT17aW50ZXIuY2xhc3NOYW1lfT5cbiAgICAgICAgICA8VGhlbWVQcm92aWRlciBhdHRyaWJ1dGU9XCJjbGFzc1wiIGRlZmF1bHRUaGVtZT1cImxpZ2h0XCI+XG4gICAgICAgICAgICA8SGVhZGVyIC8+XG4gICAgICAgICAgICB7Y2hpbGRyZW59XG4gICAgICAgICAgPC9UaGVtZVByb3ZpZGVyPlxuICAgICAgICA8L2JvZHk+XG4gICAgICA8L2h0bWw+XG4gICAgPC9TZXNzaW9uV3JhcHBlcj5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJpbnRlciIsIkhlYWRlciIsIlRoZW1lUHJvdmlkZXIiLCJTZXNzaW9uV3JhcHBlciIsIm1ldGFkYXRhIiwidGl0bGUiLCJSb290TGF5b3V0IiwiY2hpbGRyZW4iLCJodG1sIiwibGFuZyIsImJvZHkiLCJjbGFzc05hbWUiLCJhdHRyaWJ1dGUiLCJkZWZhdWx0VGhlbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/layout.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_font_google_target_css_path_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"app/layout.js\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"inter\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./globals.css */ \"(rsc)/./app/globals.css\");\n/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/components/Header */ \"(rsc)/./components/Header.jsx\");\n/* harmony import */ var _components_theme_provider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/components/theme-provider */ \"(rsc)/./components/theme-provider.jsx\");\n/* harmony import */ var _components_SessionWrapper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/components/SessionWrapper */ \"(rsc)/./components/SessionWrapper.jsx\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\n\nconst metadata = {\n    title: \"QEvent\"\n};\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_SessionWrapper__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n            lang: \"en\",\n            suppressHydrationWarning: true,\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n                className: (next_font_google_target_css_path_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_6___default().className),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_theme_provider__WEBPACK_IMPORTED_MODULE_3__.ThemeProvider, {\n                    attribute: \"class\",\n                    defaultTheme: \"light\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Header__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                            fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n                            lineNumber: 20,\n                            columnNumber: 13\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_5__.Suspense, {\n                            fallback: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                children: \"Loading...\"\n                            }, void 0, false, {\n                                fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n                                lineNumber: 21,\n                                columnNumber: 33\n                            }, void 0),\n                            children: children\n                        }, void 0, false, {\n                            fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n                            lineNumber: 21,\n                            columnNumber: 13\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n                    lineNumber: 19,\n                    columnNumber: 11\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n                lineNumber: 18,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n            lineNumber: 17,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/rajpatel/Desktop/NextJsEvent/app/layout.js\",\n        lineNumber: 16,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvbGF5b3V0LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFPTUE7QUFOaUI7QUFDa0I7QUFDbUI7QUFDSDtBQUN4QjtBQUkxQixNQUFNSyxXQUFXO0lBQ3RCQyxPQUFPO0FBQ1QsRUFBRTtBQUVhLFNBQVNDLFdBQVcsRUFBRUMsUUFBUSxFQUFFO0lBQzdDLHFCQUNFLDhEQUFDTCxrRUFBY0E7a0JBQ2IsNEVBQUNNO1lBQUtDLE1BQUs7WUFBS0MsMEJBQTBCO3NCQUN4Qyw0RUFBQ0M7Z0JBQUtDLFdBQVdiLDBKQUFlOzBCQUM5Qiw0RUFBQ0UscUVBQWFBO29CQUFDWSxXQUFVO29CQUFRQyxjQUFhOztzQ0FDNUMsOERBQUNkLDBEQUFNQTs7Ozs7c0NBQ1AsOERBQUNHLDJDQUFRQTs0QkFBQ1ksd0JBQVUsOERBQUNDOzBDQUFJOzs7Ozs7c0NBQ3RCVDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBT2YiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9ldmVudC1uZXh0Ly4vYXBwL2xheW91dC5qcz82MGU5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEludGVyIH0gZnJvbSBcIm5leHQvZm9udC9nb29nbGVcIjtcbmltcG9ydCBcIi4vZ2xvYmFscy5jc3NcIjtcbmltcG9ydCBIZWFkZXIgZnJvbSBcIkAvY29tcG9uZW50cy9IZWFkZXJcIjtcbmltcG9ydCB7IFRoZW1lUHJvdmlkZXIgfSBmcm9tIFwiQC9jb21wb25lbnRzL3RoZW1lLXByb3ZpZGVyXCI7XG5pbXBvcnQgU2Vzc2lvbldyYXBwZXIgZnJvbSBcIkAvY29tcG9uZW50cy9TZXNzaW9uV3JhcHBlclwiO1xuaW1wb3J0IHsgU3VzcGVuc2UgfSBmcm9tICdyZWFjdCc7XG5cbmNvbnN0IGludGVyID0gSW50ZXIoeyBzdWJzZXRzOiBbXCJsYXRpblwiXSB9KTtcblxuZXhwb3J0IGNvbnN0IG1ldGFkYXRhID0ge1xuICB0aXRsZTogXCJRRXZlbnRcIixcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9KSB7XG4gIHJldHVybiAoXG4gICAgPFNlc3Npb25XcmFwcGVyPlxuICAgICAgPGh0bWwgbGFuZz1cImVuXCIgc3VwcHJlc3NIeWRyYXRpb25XYXJuaW5nPXt0cnVlfT5cbiAgICAgICAgPGJvZHkgY2xhc3NOYW1lPXtpbnRlci5jbGFzc05hbWV9PlxuICAgICAgICAgIDxUaGVtZVByb3ZpZGVyIGF0dHJpYnV0ZT1cImNsYXNzXCIgZGVmYXVsdFRoZW1lPVwibGlnaHRcIj5cbiAgICAgICAgICAgIDxIZWFkZXIgLz5cbiAgICAgICAgICAgIDxTdXNwZW5zZSBmYWxsYmFjaz17PGRpdj5Mb2FkaW5nLi4uPC9kaXY+fT5cbiAgICAgICAgICAgICAge2NoaWxkcmVufVxuICAgICAgICAgICAgPC9TdXNwZW5zZT5cbiAgICAgICAgICA8L1RoZW1lUHJvdmlkZXI+XG4gICAgICAgIDwvYm9keT5cbiAgICAgIDwvaHRtbD5cbiAgICA8L1Nlc3Npb25XcmFwcGVyPlxuICApO1xufVxuIl0sIm5hbWVzIjpbImludGVyIiwiSGVhZGVyIiwiVGhlbWVQcm92aWRlciIsIlNlc3Npb25XcmFwcGVyIiwiU3VzcGVuc2UiLCJtZXRhZGF0YSIsInRpdGxlIiwiUm9vdExheW91dCIsImNoaWxkcmVuIiwiaHRtbCIsImxhbmciLCJzdXBwcmVzc0h5ZHJhdGlvbldhcm5pbmciLCJib2R5IiwiY2xhc3NOYW1lIiwiYXR0cmlidXRlIiwiZGVmYXVsdFRoZW1lIiwiZmFsbGJhY2siLCJkaXYiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/layout.js\n");
 
 /***/ }),
 
@@ -249,20 +216,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
-/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
-
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/rajpatel/Desktop/NextJsEvent/components/Header.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule, $$typeof } = proxy;
-const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/rajpatel/Desktop/NextJsEvent/components/Header.jsx#default`));
 
@@ -278,20 +234,9 @@ const __default__ = proxy.default;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
-/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
-
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/rajpatel/Desktop/NextJsEvent/components/SessionWrapper.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule, $$typeof } = proxy;
-const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/rajpatel/Desktop/NextJsEvent/components/SessionWrapper.jsx#default`));
 
@@ -307,20 +252,9 @@ const __default__ = proxy.default;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
-/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
-
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/rajpatel/Desktop/NextJsEvent/components/Tag.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule, $$typeof } = proxy;
-const __default__ = proxy.default;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/rajpatel/Desktop/NextJsEvent/components/Tag.jsx#default`));
 
@@ -340,14 +274,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/rajpatel/Desktop/NextJsEvent/components/theme-provider.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule, $$typeof } = proxy;
-const __default__ = proxy.default;
 
 const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/rajpatel/Desktop/NextJsEvent/components/theme-provider.jsx#ThemeProvider`);
 
@@ -361,7 +287,7 @@ const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__W
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/lib/metadata/get-metadata-route */ \"(rsc)/./node_modules/next/dist/lib/metadata/get-metadata-route.js\");\n/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);\n  \n\n  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {\n    const imageData = {\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}\n    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(\".\", props.params, \"favicon.ico\")\n\n    return [{\n      ...imageData,\n      url: imageUrl + \"\",\n    }]\n  });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LW1ldGFkYXRhLWltYWdlLWxvYWRlci5qcz90eXBlPWZhdmljb24mc2VnbWVudD0mYmFzZVBhdGg9JnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMhLi9hcHAvZmF2aWNvbi5pY28/X19uZXh0X21ldGFkYXRhX18iLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEsRUFBaUY7O0FBRWpGLEVBQUUsaUVBQWU7QUFDakIsdUJBQXVCO0FBQ3ZCLHFCQUFxQiw4RkFBbUI7O0FBRXhDO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTCIsInNvdXJjZXMiOlsid2VicGFjazovL2V2ZW50LW5leHQvLi9hcHAvZmF2aWNvbi5pY28/ODhkMiJdLCJzb3VyY2VzQ29udGVudCI6WyIgIGltcG9ydCB7IGZpbGxNZXRhZGF0YVNlZ21lbnQgfSBmcm9tICduZXh0L2Rpc3QvbGliL21ldGFkYXRhL2dldC1tZXRhZGF0YS1yb3V0ZSdcblxuICBleHBvcnQgZGVmYXVsdCAocHJvcHMpID0+IHtcbiAgICBjb25zdCBpbWFnZURhdGEgPSB7XCJ0eXBlXCI6XCJpbWFnZS94LWljb25cIixcInNpemVzXCI6XCIxNngxNlwifVxuICAgIGNvbnN0IGltYWdlVXJsID0gZmlsbE1ldGFkYXRhU2VnbWVudChcIi5cIiwgcHJvcHMucGFyYW1zLCBcImZhdmljb24uaWNvXCIpXG5cbiAgICByZXR1cm4gW3tcbiAgICAgIC4uLmltYWdlRGF0YSxcbiAgICAgIHVybDogaW1hZ2VVcmwgKyBcIlwiLFxuICAgIH1dXG4gIH0iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/lib/metadata/get-metadata-route */ \"(rsc)/./node_modules/next/dist/lib/metadata/get-metadata-route.js\");\n/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);\n  \n\n  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {\n    const imageData = {\"type\":\"image/x-icon\",\"sizes\":\"147x153\"}\n    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(\".\", props.params, \"favicon.ico\")\n\n    return [{\n      ...imageData,\n      url: imageUrl + \"\",\n    }]\n  });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LW1ldGFkYXRhLWltYWdlLWxvYWRlci5qcz90eXBlPWZhdmljb24mc2VnbWVudD0mYmFzZVBhdGg9JnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMhLi9hcHAvZmF2aWNvbi5pY28/X19uZXh0X21ldGFkYXRhX18iLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEsRUFBaUY7O0FBRWpGLEVBQUUsaUVBQWU7QUFDakIsdUJBQXVCO0FBQ3ZCLHFCQUFxQiw4RkFBbUI7O0FBRXhDO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTCIsInNvdXJjZXMiOlsid2VicGFjazovL2V2ZW50LW5leHQvLi9hcHAvZmF2aWNvbi5pY28/ODhkMiJdLCJzb3VyY2VzQ29udGVudCI6WyIgIGltcG9ydCB7IGZpbGxNZXRhZGF0YVNlZ21lbnQgfSBmcm9tICduZXh0L2Rpc3QvbGliL21ldGFkYXRhL2dldC1tZXRhZGF0YS1yb3V0ZSdcblxuICBleHBvcnQgZGVmYXVsdCAocHJvcHMpID0+IHtcbiAgICBjb25zdCBpbWFnZURhdGEgPSB7XCJ0eXBlXCI6XCJpbWFnZS94LWljb25cIixcInNpemVzXCI6XCIxNDd4MTUzXCJ9XG4gICAgY29uc3QgaW1hZ2VVcmwgPSBmaWxsTWV0YWRhdGFTZWdtZW50KFwiLlwiLCBwcm9wcy5wYXJhbXMsIFwiZmF2aWNvbi5pY29cIilcblxuICAgIHJldHVybiBbe1xuICAgICAgLi4uaW1hZ2VEYXRhLFxuICAgICAgdXJsOiBpbWFnZVVybCArIFwiXCIsXG4gICAgfV1cbiAgfSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__\n");
 
 /***/ })
 
