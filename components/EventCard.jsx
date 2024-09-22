@@ -7,7 +7,7 @@ const EventCard = ({ eventData }) => {
   return (
     <div className="hover-inverse w-[30%] h-fit group transform transition-transform duration-400 hover:scale-110 hover:bg-gradient-to-r hover:from-orange-200 hover:to-white text-dark m-4 border-slate-400 border rounded-md px-8 py-2.5">
       <Link
-        href={`#`}
+        href={`/events/${eventData.id}`}
         className="rounded-md text-dark flex-shrink-0 scroll-snap-card p-4"
       >
         <div>
