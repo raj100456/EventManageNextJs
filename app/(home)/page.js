@@ -13,8 +13,8 @@ function App() {
       </h1>
 
       <div className="flex items-center justify-around mt-8 mb-32">
-        {dummyEvents.map((eventData) => (
-          <EventCard eventData={eventData} />
+        {dummyEvents.map((eventData, index) => (
+          <EventCard eventData={eventData} key={index}/>
         ))}
       </div>
     </div>

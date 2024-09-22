@@ -1,9 +1,1 @@
-{
-  "/events/page": "app/events/page.js",
-  "/events/[eventId]/page": "app/events/[eventId]/page.js",
-  "/tags/page": "app/tags/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(home)/page": "app/(home)/page.js",
-  "/artists/page": "app/artists/page.js"
-}
+{}
